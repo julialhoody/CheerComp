@@ -3,13 +3,13 @@ public class Team
 	{
 		private String name;
 		private int score;
-		private int bulk;
+		private int size;
 		
-		public Team(String n, int s, int b)
+		public Team(String n, int sc, int s)
 		{
 			name = n; 
-			score = s; 
-			bulk = b; 
+			score = sc; 
+			size = s; 
 		}
 		
 		public String getName()
@@ -29,13 +29,13 @@ public class Team
 			this.score = score;
 			
 		}
-		public int getBulk()
+		public int getSize()
 		{
-			return bulk;
+			return size;
 		}
-		public void setBulk(int bulk)
+		public void setSize(int size)
 		{
-			this.bulk = bulk;
+			this.size = size;
 		}
 		
 
