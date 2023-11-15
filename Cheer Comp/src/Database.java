@@ -1,3 +1,4 @@
+//array list with team information
 import java.util.ArrayList;
 
 public class Database
@@ -22,6 +23,7 @@ public class Database
 			size.add(new Team("Cherry Creek", 0, 30));
 			size.add(new Team("Legend", 0, 11));
 			size.add(new Team("Grand View", 0, 12));
-			//line25
+			
+			
 		}
 	}

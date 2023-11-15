@@ -1,4 +1,4 @@
-
+//pojo for team specifics like name, score, and size
 public class Team
 	{
 		private String name;

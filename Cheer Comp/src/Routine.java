@@ -1,4 +1,6 @@
-
+//pojo for routine elements like tumbling, stunts, cheer, and dance 
+//for the score calculation each part is worth 25 points
+// 1: 6.25, 2: 12.5, 3: 18.75, 4:25
 public class Routine
 	{
 		public int tumbling; 
