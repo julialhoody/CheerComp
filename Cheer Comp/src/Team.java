@@ -4,12 +4,15 @@ public class Team
 		private String name;
 		private int score;
 		private int size;
+		private Routine comp;
 		
 		public Team(String n, int sc, int s)
 		{
 			name = n; 
 			score = sc; 
-			size = s; 
+			size = s;
+			comp = new Routine(0, 0, 0, 0);
+			//each team has a routine object as a part of the routine
 		}
 		
 		public String getName()
@@ -37,6 +40,9 @@ public class Team
 		{
 			this.size = size;
 		}
-		
-
+		public Routine getComp()
+		{
+			return comp;
+			//gives access to the routine object
+		}
 	}

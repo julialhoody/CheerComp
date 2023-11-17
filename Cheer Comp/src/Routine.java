@@ -5,6 +5,8 @@ public class Routine
 		public int stunts; 
 		public int cheer;
 		public int dance;
+		 
+
 		
 		public Routine(int t, int s, int c, int d)
 		{
@@ -25,7 +27,7 @@ public class Routine
 		{
 			return stunts;
 		}
-		public void getStunts (int stunts)
+		public void setStunts (int stunts)
 		{
 			this.stunts = stunts;
 		}
@@ -41,9 +43,14 @@ public class Routine
 		{
 			return dance;
 		}
-		public void getDance (int dance)
+		public void setDance (int dance)
 		{
 			this.dance = dance;
+		}
+		
+		public int totalScore()
+		{
+			return tumbling + stunts + cheer + dance; 
 		}
 
 	}
